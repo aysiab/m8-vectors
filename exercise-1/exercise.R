@@ -2,6 +2,8 @@
 
 # Create a vector `first.ten` that has the values 10 through 20 in it (using the : operator)
 
+first.ten <- 10:20
+
 
 # Create a vector `next.ten` that has the values 21 through 30 in it (using the seq operator)
 
