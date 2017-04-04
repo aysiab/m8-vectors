@@ -15,6 +15,7 @@ all.numbers <- c(first.ten, next.ten)
 
 # Create a variable `eleventh` that is equal to the 11th element in your vector `all.numbers`
 
+eleventh <- all.numbers[11]
 
 # Create a vector `some.numbers` that is equal to the second through the 5th elements of `all.numbers`
 
