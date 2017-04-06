@@ -2,8 +2,10 @@
 
 # Create a vector `marbles` with 6 different colors in it (representing marbles)
 
+marbles <- c("blue","yellow","pink","purple","white","red")
 
 # Use the `sample` function to select a single marble
+
 
 
 # Write a function MarbleGame that does the following:
