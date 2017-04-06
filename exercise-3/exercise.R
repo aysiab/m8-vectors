@@ -13,6 +13,16 @@ sample(marbles, size = 1)
 # - Randomly samples a marble
 # - Returns whether or not the person guessed accurately (preferrably a full phrase)
 
+MarbleGame <- function(guess) {
+  rand.marble <- sample(marbles, 1)
+  if (rand.marble == guess) {
+    return("You win! ;D") 
+  } else {
+    return("You lose :'(")
+  }
+} 
+
+MarbleGame("pink")
 
 # Play the marble game!
 
